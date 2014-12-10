@@ -1,0 +1,21 @@
+@import 'form';
+@import 'select';
+
+.container {
+  color: #18344c;
+  padding: 5rem;
+}
+
+.third {
+  float: left;
+  width: 33%;
+}
+
+.hide-input {
+  display: none;
+}
+
+h2 {
+  border-bottom: solid 1px #18344c;
+  margin-top: 0;
+}

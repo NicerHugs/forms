@@ -1,0 +1,18 @@
+// Basic styles for form and general form elements (ie labels)
+
+form {
+  border: solid 1px #c3d5e5;
+  padding: 4rem;
+
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+}
+
+label {
+  display: block;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
